@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 768px) {
+  .converter{
+    &__container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 40px 1fr;
+      gap: 10px;
+    }
+    svg{
+      transform: rotate(90deg);
+    }
+    h1{
+      grid-column: unset;
+      font-size: $font-lg;
+    }
+  }
+  .currency-box{
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+
+}

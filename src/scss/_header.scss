@@ -1,0 +1,29 @@
+.header{
+  height: 70px;
+  color: $color-white;
+  background-color: $color-black;
+  &__container{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  &__logo{
+    font-size: $font-xl;
+  }
+  &__current-rate{
+    p {
+      font-size: $font-md;
+      line-height: $font-lg;
+      opacity: 0.8;
+      transition: 400ms;
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
+}
